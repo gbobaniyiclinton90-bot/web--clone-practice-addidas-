@@ -1,0 +1,378 @@
+/* Font-face declarations */
+@font-face {
+  font-family: 'Adihausdin Regular';
+  src: url('./fonts/adihausdin_regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Adihausdin Bold';
+  src: url('./fonts/adihausdin_bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Adihausdin CN';
+  src: url('./fonts/adihausdin_cn.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Adihausdin Regular';
+  
+}
+header{
+  width: 100%;
+  height: 20vh;
+
+}
+
+.header1{
+  height: 7vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header2{
+  display: flex;
+  flex-direction: column;
+  height: 13vh;
+  width: 100%;
+}
+
+.header2-item1{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  padding-right: 5em;
+}
+
+.header2-item1 nav ul{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.header2-item1 nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.85rem;
+}
+
+.header2-item1 nav ul li a:hover{
+  text-decoration: underline;
+}
+.header2-item2{
+flex: 2;
+display: flex;
+padding: 0 2rem;
+justify-content: space-between;
+align-items: center;
+}
+
+.header2-item2 img{
+  width:60px;
+  height:9.5vh;
+}
+
+.header2-item2 nav ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.header2-item2 nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family:  'Adihausdin Bold';
+}
+
+.image-div1{
+  background-image: url('./images/adiDAS_F50_WEB_aetuq2.webp');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+}
+
+main div .image-div1{
+  padding-left: 15px;
+}
+
+main div div .f-50{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 80px;
+  padding-top: 140px; 
+  font-family:'Adihausdin Bold';
+}
+
+main div .image-div1 p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.Shop-now{
+ margin-left: 80px;
+ margin-top: 40px;
+ padding: 5px 5px;
+ color: black;
+ background-color: rgb(255, 255, 255);
+ font-weight: 700;
+ border: none;
+ width: 150px;
+ height: 50px;
+box-shadow: 5px 5px 0 rgba( 0,0, 0, 35);
+}
+
+.arrw{
+ font-size: 25px;
+ margin-left: 10px;
+ vertical-align: middle;
+}
+
+.image-div2{
+  background-image: url(./images/TRAINING_WEB_1_yfh26h.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+}
+
+main div .image-div2 h1{
+  padding-top: 90px ;
+  font-family:'Adihausdin Bold';
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 80px;
+
+}
+
+main div .image-div2 p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+main .seller{
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px 20px;
+}
+
+.product-container{
+  min-height: 40vh ;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.product {
+    width:300px;
+    min-height: 370px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+.product:hover{
+   border:1px solid black;
+   transition: 0.3s;
+}
+
+.product-img{
+  width:100%;
+  height:300px;
+  object-fit:contain; 
+}
+
+.wishlist{
+  position: absolute;
+   top: 15px;
+  right: 15px;
+  font-size: 24px;
+}
+
+.discount{
+  position: absolute;
+  bottom: 105px;
+  left: 5px;
+  background-color: white;
+  font-family:  'Adihausdin Bold';
+}
+
+.price{
+  position: absolute;
+  bottom: 70px;
+  left: 5px;
+  background-color: white;
+}
+
+.old-price{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.new-price{
+  color: red;
+}
+
+.product h3{
+  font-size: 14px;
+  margin:5px;
+  font-weight: 300;
+}
+
+.product p{
+  color: rgb(118, 118, 119);
+  margin: 5px;
+  font-size: 15px;
+}
+
+
+.shopping-selection{
+  margin: 30px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.women{
+  width: 380px;
+  height: 430px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.women img{
+  width: 100%;
+  height: 380px;
+}
+
+.women h3{
+padding-top: 5px;
+}
+
+.shop-style{
+  font-size: 30px;
+  font-weight: 700;
+  font-family:'Adihausdin Bold';
+  margin: 0 30px;
+  margin-bottom: 110px;
+  margin-top: 40px;
+}
+
+.shop-style1{
+ width:300px;
+ margin-bottom: 30px;
+}
+
+.shop-style1 img{
+  width: 100%;
+  height: 380px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.shop-style1 h3{
+  margin-left: 30px;
+  font-family:'Adihausdin Bold';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.shop-style1 p{
+  font-size: 13px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.shop-style1 button{
+  margin-left: 30px;
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  font-family:'Adihausdin Bold';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.shop-style1 button:hover{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.popular{
+  font-size: 36px;
+  font-weight: 700;
+  font-family:'Adihausdin Bold';
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.man-u{
+  display: flex;
+  gap: 10px;
+  font-family:'Adihausdin Bold';
+  color: black;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 300px;
+}
+
+.man-u a h1{
+  color: black;
+
+}
+
+.stories{
+  width: 100%;
+  height: 750px;
+  background:rgb(245, 245, 229);
+  display: flex;
+}
+
+.storie1{
+  width: 50%;
+  height:100%;
+}
+
+.storie1 h2{
+  font-size: 36px;
+  font-weight: 700;
+  font-family:'Adihausdin Bold';
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.stories2{
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.storie-header{
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
