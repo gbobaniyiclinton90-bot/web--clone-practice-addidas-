@@ -131,7 +131,7 @@ main div .image-div1 p{
  border: none;
  width: 150px;
  height: 50px;
-box-shadow: 5px 5px 0 rgba( 0,0, 0, 35);
+ box-shadow: 5px 5px 0 rgba( 0,0, 0, 35);
 }
 
 .arrw{
@@ -338,7 +338,11 @@ padding-top: 5px;
 
 .man-u a h1{
   color: black;
+}
 
+a {
+
+  color: black
 }
 
 .stories{
@@ -371,6 +375,69 @@ padding-top: 5px;
   margin-bottom: 45px;
 }
 
+footer{
+  width: 100%;
+  height: 85vh;
+}
+
+.first-div{
+  width: 100%;
+  height: 25vh ;
+  background-color: rgb(237, 231, 52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-div h2{
+  font-family:'Adihausdin Bold';
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.first-div button{
+  width: 196px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  margin-left: 25px;
+  border: none;
+  font-family:'Adihausdin Bold';
+  position: relative;
+  z-index: 1;
+} 
+
+ .first-div button::after{
+    position: absolute;
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #333;
+    z-index: -1;
+}
+
+ .second-div{
+  width: 100%;
+  height: 47vh;
+  margin-left: 110px;
+  margin-top: 60px;
+ }
+
+ .second-div h3{
+  color:black;
+  font-family:'Adihausdin Bold';
+  margin-bottom: 20px;
+ }
+
+ .support-links{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+ }
 
 
 
