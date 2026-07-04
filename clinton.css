@@ -375,10 +375,10 @@ a {
   margin-bottom: 45px;
 }
 
-footer{
+/* footer{
   width: 100%;
   height: 85vh;
-}
+} */
 
 .first-div{
   width: 100%;
@@ -420,12 +420,12 @@ footer{
     z-index: -1;
 }
 
- .second-div{
+ /* .second-div{
   width: 100%;
   height: 47vh;
   margin-left: 110px;
   margin-top: 60px;
- }
+ } */
 
  .second-div h3{
   color:black;
