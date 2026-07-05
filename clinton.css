@@ -92,6 +92,10 @@ align-items: center;
   color: black;
   font-family:  'Adihausdin Bold';
 }
+main{
+  width: 100%;
+  height: auto;
+}
 
 .image-div1{
   background-image: url('./images/adiDAS_F50_WEB_aetuq2.webp');
@@ -320,34 +324,36 @@ padding-top: 5px;
   font-weight: 700;
   font-family:'Adihausdin Bold';
   margin-left: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .man-u{
   display: flex;
-  gap: 10px;
-  font-family:'Adihausdin Bold';
+  gap: 50px;
   color: black;
-  flex-direction: column;
   flex-wrap: wrap;
   align-items:flex-start;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
-.man-u a h1{
+.man-u div a{
   color: black;
-}
-
-a {
-
-  color: black
+  font-size: 40px;
+  font-weight: 700;
+  font-family:'Adihausdin Bold';
+  display: inline-block;
+  width: 300px;
+  border-bottom: 3px solid #333;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-left: 30px;
 }
 
 .stories{
   width: 100%;
-  height: 750px;
+  height: 100%;
   background:rgb(245, 245, 229);
   display: flex;
 }
@@ -369,6 +375,7 @@ a {
   padding-left: 30px;
   padding-top: 30px;
   font-size: 16px;
+  padding-bottom: 70px;
 }
 
 .storie-header{
@@ -377,12 +384,11 @@ a {
 
 footer{
   width: 100%;
-  height: 85vh;
 }
 
 .first-div{
   width: 100%;
-  height: 25vh ;
+  height: 23vh ;
   background-color: rgb(237, 231, 52);
   display: flex;
   align-items: center;
@@ -404,28 +410,17 @@ footer{
   margin-left: 25px;
   border: none;
   font-family:'Adihausdin Bold';
-  position: relative;
-  z-index: 1;
 } 
 
- .first-div button::after{
-    position: absolute;
-    content: "";
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 100%;
-    height: 100%;
-    border: 2px solid #333;
-    z-index: -1;
-}
-
  .second-div{
-  width: 100%;
-  height: 47vh;
-  margin-left: 110px;
-  margin-top: 60px;
+  width: 300px;
+  height: 42vh;
+  margin-left: 130px;
+  margin-top: 50px;
+  display: flex; 
+  gap: 700px;
  }
+
 
  .second-div h3{
   color:black;
@@ -437,9 +432,42 @@ footer{
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  gap: 5px;
  }
 
+ .support-links a{
+  color: black;
+  text-decoration-line: none;
+  font-size: 14px;
+ }
 
+ .support-links a:hover{
+  text-decoration-line: underline;
+ }
 
+.third-div{
+  width: 100%;
+  height: 15vh;
+  background:rgb(40, 44, 49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.third-div > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.third-div div a{
+  color:  #d3d7da;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.third-div div span{
+  color: #d3d7da;
+}
 
